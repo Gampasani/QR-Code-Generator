@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | QR Code Generator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f7f9fb;
+    }
+    .form-control:focus {
+      box-shadow: none;
+      border-color: #007bff;
+    }
+    .contact-card {
+      border-radius: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">QR Code Generator</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="project.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="text-center py-5 bg-white">
+    <div class="container">
+      <h1 class="fw-bold">Contact Us</h1>
+      <p class="lead">We’d love to hear from you! Feel free to reach out anytime.</p>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="card shadow contact-card p-4">
+            <h5 class="mb-3 fw-bold">Send a Message</h5>
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="email" placeholder="example@gmail.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Type your message here..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary px-4">Submit</button>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="text-center mt-4">
+            <h6 class="fw-bold">Or connect with us</h6>
+            <p>
+              <a href="mailto:yourname@gmail.com" class="text-decoration-none me-3">📧 Gmail</a>
+              <a href="https://www.linkedin.com/in/your-profile" target="_blank" class="text-decoration-none me-3">💼 LinkedIn</a>
+              <a href="https://github.com/your-username" target="_blank" class="text-decoration-none">🐱 GitHub</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-white text-center py-3 border-top">
+    <p>&copy; 2025 QR Code Generator. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
