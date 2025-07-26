@@ -61,4 +61,4 @@ A full-featured QR Code Generator web app that also offers additional tools like
 For Flask backend (optional), a requirements.txt and app structure can be added later.
 
 📄 License
-This project is open-source and free to use under the MIT License LICENSE.
+This project is open-source and free to use under the MIT License.
